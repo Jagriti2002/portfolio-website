@@ -1,0 +1,617 @@
+/* Responsive Design */
+
+@media (max-width: 2500px){
+    /* Contact */
+    .contact_wrapper .bg-img img{
+        width: 2500px;
+    }
+}
+@media (max-width: 1201px) {
+    /* custom css */
+    h1 {
+        font-size: 65px;
+    }
+    .middle-img2 img{
+        margin-left: 900px;
+        width: 200px;
+        margin-top: -80px;
+    }
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        padding-bottom: 15px; 
+        max-width: 400px;
+        padding-left: 80px;
+        margin-left: -400px;
+    }  
+    /* Service */
+    .service_wrapper .services-container .card{
+        width: 300px;
+        height: 212px;
+    }
+    .service_wrapper .services-container .card .card-body .arrow-img{
+        width: 50px;
+        margin-left: 200px;
+        margin-top: -15px;
+    }  
+    /* Design */
+    .tranding-slider-control .swiper-button-next {
+        left: 78% !important;
+        transform: translateX(-78%) !important;
+    }
+    .tranding-slider-control .slider-arrow {
+        margin-left: -150px;
+    } 
+    /* Testimonial */
+    .testimonials_wrapper .testimonial-img1{
+        margin-left: -370px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -300px;
+    }
+}
+@media (min-width:991px){
+    .mobile-nav{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    /* custom css */ 
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .main-btn{
+        margin-left: -180px;
+        width: 180px;
+        height: 72px;
+        font-size: 14px;
+        padding-top: 25px;
+    }
+    .middle-img2 img{
+        margin-left: 660px;
+        width: 200px;
+        margin-top: -80px;
+    }
+    /*  Navbar */
+    .header_wrapper .navbar-brand img {
+        max-width: 80px;
+    }
+    .header-scrolled {
+        height: auto;
+    }
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+        left: 0px;
+    }
+    .header_wrapper .navbar-brand img {
+        max-width: 67px;
+        height: auto;
+    }
+    /* banner */
+    .banner_wrapper {
+        padding-top: 70px;
+    }
+    .banner_wrapper .main-btn-about{
+        margin-left: 10px;
+        width: 180px;
+        height: 72px;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .banner_wrapper .main-btn{
+        padding-top: 21px;
+        width: 180px;
+        height: 72px;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .banner_wrapper .wave-container img{
+        display: none;
+    }
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }
+    .about_wrapper .single-progress{
+       text-align: left;
+    }
+    /* About Education */
+    .view-certificate-btn{
+        margin-left: -8rem;
+    }
+    /* Technology */
+    .technology_wrapper .technology-container .card .frontend-img{
+        margin-top: 0px;
+    }
+    /* Service */
+    .service_wrapper .services-container .card .card-body .arrow-img{
+        width: 43px;
+        height: 40px;
+        margin-left: 230px;
+    }
+    .service_wrapper .card:hover {
+        height: 550px;
+    }
+    /* Design */
+
+    .tranding-slider-control .slider-arrow {
+        left: 50%;
+    } 
+    .tranding-slider-control .swiper-button-next {
+        margin-left:-50px;
+    } 
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 50rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 450px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -520px;
+        max-width: 300px;
+        margin-top: 150px;
+    }
+    /* Contact */
+    .contact_wrapper .contact-btn{
+        position:relative;
+    }
+    /* Footer */
+    .footer_wrapper{
+        max-height: 500px;
+    }
+    .footer .links{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 767px) {
+    /* custom css */
+    h1{
+        font-size: 25px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .middle-img{
+        width: 150px;
+        margin-top: -180px;
+    }
+    .middle-img2 img{
+        margin-left: 560px;
+        width: 200px;
+        margin-top: -80px;
+    }
+    /*  Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 250px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .banner_wrapper .banner-img img{
+        height: 300px;
+    }
+    /* Middle1 */
+    .middle1_wrapper .middle1-container .middle1-img{
+       display: none;
+    }
+    /* About */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+       font-size: 13px;
+    }
+    /* About Internship */
+    .internship-heading{
+        font-size: 20px;
+    }
+    .timeline__item .internship-topic{
+        width: 300px;
+        height: 175px;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 15px;
+    }
+    /* About Education */
+    .education-container{    
+        width: 480px;
+        height: 550px;
+    }
+    /* Technology */
+    .technology_wrapper .technology-container .frontend .card{
+        margin-top: 0px;
+    }
+    /* Services */
+    .service_wrapper .services-container .card .card-body .vector-img{
+        margin-left: 20px;
+    }
+    /* Design */
+    .tranding-slider-control .swiper-button-next {
+        margin-left: -10px;
+    }
+    .tranding-slider-control .swiper-button-prev {
+        margin-left: -140px;
+    }
+    .design_wrapper{
+        background-image: none;
+    }
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 40rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 300px;
+        margin-left: -300px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -330px;
+        max-width: 200px;
+        margin-top: 200px;
+    }
+    .nav-btn{
+        left: 75%;
+    }
+    .testimonial .swiper-button-next {
+        left: 85% !important;
+    }
+    /* Contact */
+    .contact_wrapper .call_details a{
+        font-size: 25px;
+    }
+    .contact_wrapper .bg-img img{
+        display: none;
+    }
+    /* Footer */
+    .footer_wrapper{
+        max-height: 600px;
+    }
+}
+@media (max-width: 576px) {
+    /* custom css */
+    .main-btn{
+        width: 150px;
+        height: 52px;
+        margin-left: -160px;
+        font-size: 11px;
+        padding-top: 20px;
+    }
+    .middle-img2 img{
+        margin-left: 380px;
+        width: 130px;
+        margin-top: -50px;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    /* Banner */
+    .banner_wrapper .main-btn-about{
+        width: 150px;
+        height: 52px;
+        font-size: 13px;
+        padding-top: 18px;
+    }
+    .banner_wrapper .main-btn{
+        width: 150px;
+        height: 52px;
+        font-size: 13px;
+        padding-top: 18px;
+    }
+    .banner_wrapper .cv-img{
+        width: 20px;
+        height: 25px;
+        padding-top: -10px;
+    }
+    .banner_wrapper .about-img{
+        width: 25px;
+        height: 25px;
+    }
+    /* About Education */
+    .education-container{    
+        width: 450px;
+        height: 550px;
+    }
+    /* Services */
+    .service_wrapper .services-container .card .card-body h2{
+        font-size: 20px;
+    }
+    .service_wrapper .services-container .card .card-body .arrow-img{
+        margin-left: 200px;
+    }
+    /* Design */
+    .design_wrapper{
+        background-image: none;
+    }
+    .design-container .tranding-slider {
+        height: 45rem;
+    }
+    .tranding-slide {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide .tranding-slide-img img {
+        width: 28rem !important;
+        height: 36rem !important;
+    }
+    .tranding-slide:hover .effect-text{
+        width: 28rem !important;
+        height: 36rem !important;
+        left: 0;
+    }
+    .tranding-slide .effect-text .inner p{
+        font-size: 20px;
+        text-align: center;
+        line-height: 26px;
+        letter-spacing: 0;
+        margin: 20px;
+    }
+    .tranding-slide .effect-text .inner h2{
+        font-size: 35px;
+        font-weight: 500;
+        text-align: center;
+        margin: 20px;
+    }
+    .tranding-slider-control .swiper-button-next {
+        margin-left: 50px;
+    }
+    .tranding-slider-control .swiper-button-prev {
+        margin-left: -160px;
+    }
+    .tranding-slide .effect-text .inner .design-btn{
+        left: 130px;
+    }
+    /* Testimonials */
+    .testimonials_wrapper{
+        max-height: 35rem;
+    }
+    .testimonials_wrapper .testimonial-img1{
+        width: 250px;
+        margin-left: -250px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -350px;
+    }
+    /* Contact */
+    .contact_wrapper .container p{
+        font-size: 30px;
+    }
+    .contact_wrapper .contact-img{
+        width: 55px;
+        height: 55px;
+    }
+    .contact_wrapper .contact-btn{
+        width: 337.08px;
+        height: 80px;
+    }
+    .contact_wrapper .contact-btn h2{
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .contact_wrapper .contact-btn .line-img{
+        margin-left: 270px;
+        margin-top: -130px;
+    }
+    /* Footer */
+    .footer_wrapper{
+        max-height: 700px;
+    }
+}
+@media (max-width: 450px)   {
+    /* custom css */
+    .middle-img{
+        width: 100px;
+        margin-top: -150px;
+    }
+    .logo-img{
+        width: 80px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .middle-img2 img{
+        margin-left: 250px;
+        width: 100px;
+        margin-top: -30px;
+    }
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 150px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .banner_wrapper .cv-img{
+        top: 15px;
+        height: 22px;
+    }
+    /* About Internship */
+    .internship-heading{
+        font-size: 15px;
+    }
+    .timeline__item .internship-topic{
+        width: 200px;
+        height: 175px;
+        margin-left: -1rem;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 13px;
+    }
+    .timeline__item::before{
+        margin-left: -1rem;
+    }
+    .circle__dot{
+        margin-left: -1rem;
+    }
+    /* About Education */
+    .education-container{    
+        width: 270px;
+        height: 650px;
+        border-radius: 0;
+    }
+    .education-container .timeline__date{
+        font-size: 18px;
+    }
+    .education-heading .education-icon{
+        width: 25px;
+        height: 25px;
+        margin-left: 0rem;
+    }
+    .education-heading h12{
+        font-size: 18px;
+    }
+    .education-heading span{
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    .education-heading p{
+        font-size: 10px;
+    }
+    .education-info ul{
+        margin-top: -2rem;
+    }
+    .view-certificate-btn{
+        width: 150px;
+        height: 50px;
+        margin-left: -4rem;
+        font-size: 11px;
+        padding: .50rem;
+    }
+    .education-slide-container .nav-btn{
+        left: 40%;
+        top: 90%;
+    }
+    .education-slide-container .testimonial .swiper-button-next {
+        left: 60% !important;
+    }
+    /* Services */
+    .service_wrapper .card .content .details h2{
+        font-size: 17px;
+    }
+    /* Design */
+    .tranding-slider-control .swiper-button-next {
+        display: none;
+    }
+    .tranding-slider-control .swiper-button-prev {
+        display: none;
+    }
+    /* Testimonials */
+    .testimonials_wrapper .testimonial-img1{
+        width: 250px;
+        margin-left: -200px;
+    }
+    .testimonials_wrapper .testimonial-box img{
+        margin-left: -350px;
+        max-width: 180px;
+        margin-top: 230px;
+    }
+    .nav-btn{
+        left: 70%;
+        top: 45%;
+    }
+    /* Contact */
+    .contact_wrapper .container p{
+        font-size: 28px;
+    }
+    .contact_wrapper .contact-btn{
+        width: 280px;
+        height: 70px;
+    }
+    .contact_wrapper .contact-btn h2{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    .contact_wrapper .contact-btn .line-img{
+        display: none;
+    }     
+    .contact_wrapper .call_details a{
+        font-size: 20px;
+    }
+    .contact-form-btn .vector-btn .vector{
+        display: none;
+    }  
+    /* Footer */
+    .footer .links{
+        margin-top: 50px;
+    }
+}   
+@media (max-width: 350px)   {
+    /* Navbar */
+    .header_wrapper .menu-navbar-nav {
+        background-color: #461f03;
+        padding-bottom: 15px; 
+        max-width: 400px;
+        margin-left: 100px;
+        padding-left: 10px;
+    }
+    /* Middle1 */
+    .middle1_wrapper .middle1-container .card{
+        width: 200px;
+        height: 187.63px;
+    }
+    .middle1_wrapper .middle1-container .card .card-body h2{
+        font-size: 25px;
+    }
+    .middle1_wrapper .middle1-container .card .card-body .main-btn-middle1{
+        width: 130px;
+        height: 48.39px;
+        padding-left: 10px;
+    }
+    /* About Internship */
+    .about_wrapper .internship-heading h2{
+        font-weight: 0;
+        font-size: 20px;
+        line-height: 61px;
+    }
+    .timeline__item .internship-topic{
+        width: 200px;
+        height: 175px;
+        margin-left: -3rem;
+    }
+    .about_wrapper .timeline__title{
+        font-size: 13px;
+    }
+    .timeline__item::before{
+        margin-left: -2.5rem;
+    }
+    .circle__dot{
+        margin-left: -2.5rem;
+    }
+    /* About Education */
+    .education-container{    
+        margin-left: -100px;
+    }
+    /* Design */
+    .tranding-slider-control .swiper-button-next {
+        margin-left: 60px;
+    }
+    .tranding-slider-control .swiper-button-prev {
+        margin-left: -140px;
+    }
+    /* Footer */
+    .footer_wrapper{
+        max-height: 800px;
+    }
+    .footer-logo img{
+        max-width:100%;
+        max-height:100%;
+        margin-left:50%;
+        position:relative;
+    }
+}     
